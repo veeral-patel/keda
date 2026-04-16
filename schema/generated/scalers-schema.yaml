@@ -3739,13 +3739,14 @@ scalers:
           optional: true
           metadataVariableReadable: true
           envVariableReadable: true
-        - name: selectAllActive
+        - name: deploymentName
           type: string
-          default: "false"
+          optional: true
           metadataVariableReadable: true
-        - name: selectUnversioned
+          envVariableReadable: true
+        - name: workerVersioningType
           type: string
-          default: "false"
+          optional: true
           metadataVariableReadable: true
         - name: apiKey
           type: string

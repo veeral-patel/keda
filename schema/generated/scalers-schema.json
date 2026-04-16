@@ -5709,15 +5709,16 @@
                     "envVariableReadable": true
                 },
                 {
-                    "name": "selectAllActive",
+                    "name": "deploymentName",
                     "type": "string",
-                    "default": "false",
-                    "metadataVariableReadable": true
+                    "optional": true,
+                    "metadataVariableReadable": true,
+                    "envVariableReadable": true
                 },
                 {
-                    "name": "selectUnversioned",
+                    "name": "workerVersioningType",
                     "type": "string",
-                    "default": "false",
+                    "optional": true,
                     "metadataVariableReadable": true
                 },
                 {
